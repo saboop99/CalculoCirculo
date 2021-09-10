@@ -21,7 +21,7 @@ namespace CalculoCirculo
             //declarando variavel volume (Volume)
             double volume = calc.Volume(raio);
 
-            //Conversão dos resultados para string, para ser possível mostra-los na tela
+            //Conversão dos resultados para string, para ser possível mostra-los na tela, e depois é mostrado na tela
             Console.WriteLine("Circuferencia: " + circ.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Volume: " + volume.ToString("F2", CultureInfo.InvariantCulture));
             Console.WriteLine("Valor de Pi: " + calc.Pi.ToString("F2", CultureInfo.InvariantCulture));
